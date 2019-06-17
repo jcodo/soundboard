@@ -1,1 +1,92 @@
 
+<!DOCTYPE html>
+
+<title>Web Team Soundboard 🔊</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 18px;
+    --primary: deeppink;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+.container {
+    max-width: 768px;
+    margin: 1rem auto;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+article {
+    padding: 1rem 0;
+}
+
+span[role="img"] {
+    margin: 1rem;
+}
+
+.title {
+    background: var(--primary);
+    display: inline-block;
+    color: white;
+    padding: 1rem;
+}
+
+.subtitle {
+    text-decoration: underline;
+    text-decoration-color: cyan;
+    margin-bottom: 1rem;
+}
+</style>
+
+<header class="container">
+    <h1 class="title"><span role="img">🎵</span>Web Team Soundboard</h1>
+</header>
+
+<main class="container">
+    <section>
+        <article>
+            <h2 class="subtitle"><em>Stand Up</em></h2>
+            <audio controls>
+                <source src="audio/standup.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+        <article>
+            <h2 class="subtitle"><em>Break Out</em></h2>
+            <audio controls>
+                <source src="audio/breakout.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+        <article>
+            <h2 class="subtitle"><em>Push It</em></h2>
+            <audio controls>
+                <source src="audio/push.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+        <article>
+            <h2 class="subtitle"><em>Running</em></h2>
+            <audio controls>
+                <source src="audio/running.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+    </section>
+</main>
