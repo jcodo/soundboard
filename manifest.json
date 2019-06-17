@@ -1,0 +1,6 @@
+{
+  "short_name": "soundboard",
+  "name": "Web Team Sound Board",
+  "background_color": "deeppink",
+  "display": "standalone",
+}
